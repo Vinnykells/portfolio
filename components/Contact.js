@@ -5,9 +5,9 @@ import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
 import AnimatedSection from './AnimatedSection'
 
-const EMAILJS_SERVICE_ID = 'service_s751tff'
-const EMAILJS_TEMPLATE_ID = 'template_ae5qits'
-const EMAILJS_PUBLIC_KEY = 'gJwqmc-rBfi0uH5E-'
+const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+const EMAILJS_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
 
 export default function Contact() {
   const formRef = useRef(null)

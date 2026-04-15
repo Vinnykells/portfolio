@@ -2,6 +2,7 @@ import './globals.css'
 import { Analytics } from '@vercel/analytics/react'
 
 export const metadata = {
+  metadataBase: new URL('https://portfolio-vinnykells.vercel.app'),
   title: 'Vinny Kells | Frontend Developer',
   description: 'Frontend Developer specializing in React, Next.js and modern web experiences.',
   keywords: ['Frontend Developer', 'React Developer', 'Next.js', 'Web Developer', 'UI Developer'],
@@ -10,7 +11,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://vinnykells.vercel.app',
+    url: 'https://portfolio-vinnykells.vercel.app',
     title: 'Vinny Kells | Frontend Developer',
     description: 'Frontend Developer specializing in React, Next.js and modern web experiences.',
     siteName: 'Vinny Kells Portfolio',
