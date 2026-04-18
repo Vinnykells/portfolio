@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import AnimatedSection from "./AnimatedSection";
 
@@ -38,13 +39,14 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <AnimatedSection delay={0.2}>
             <div className="relative">
-              <div className="w-full aspect-square max-w-md mx-auto rounded-3xl bg-gradient-to-br from-white/5 to-white/0 border border-white/10 overflow-hidden flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 rounded-full bg-gradient-to-br from-apple-blue/30 to-purple-500/30 mx-auto mb-4 flex items-center justify-center border border-white/10">
-                    <span className="text-5xl">👤</span>
-                  </div>
-                  <p className="text-apple-gray text-sm">Your Photo Here</p>
-                </div>
+              <div className="w-full aspect-square max-w-md mx-auto rounded-3xl overflow-hidden border border-white/10">
+                <Image
+                  src="/Portfolio pic.png"
+                  alt="Vinny Kells"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 rounded-2xl bg-apple-blue/10 border border-apple-blue/20 blur-sm" />
               <div className="absolute -bottom-4 -left-4 w-16 h-16 rounded-xl bg-purple-500/10 border border-purple-500/20 blur-sm" />
@@ -54,12 +56,11 @@ export default function About() {
           <div className="space-y-6">
             <AnimatedSection delay={0.3}>
               <p className="text-lg text-apple-gray leading-relaxed">
-                Hi, I'm <span className="text-white font-medium">John Doe</span>
-                , a passionate Frontend Developer based in{" "}
-                <span className="text-white font-medium">
-                  Your City, Country
-                </span>
-                . I specialize in building exceptional digital experiences that
+                Hi, I'm{" "}
+                <span className="text-white font-medium">Kelvin Isaiah</span>, a
+                passionate Frontend Developer based in{" "}
+                <span className="text-white font-medium">Lagos, Nigeria</span>.
+                I specialize in building exceptional digital experiences that
                 live on the internet.
               </p>
             </AnimatedSection>
@@ -85,7 +86,7 @@ export default function About() {
 
             <AnimatedSection delay={0.6}>
               <motion.a
-                href="/resume.pdf"
+                href="/Isaiah Kelvin Resume DEV.pdf"
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

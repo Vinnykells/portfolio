@@ -47,7 +47,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
           className="text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tight text-white mb-4 leading-none"
         >
-          John Doe
+          Kelvin Isaiah
         </motion.h1>
 
         <div className="h-16 flex items-center justify-center mb-6 overflow-hidden">
