@@ -39,14 +39,16 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <motion.button
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="text-white font-semibold text-lg tracking-tight"
-            whileHover={{ opacity: 0.7 }}
-            transition={{ duration: 0.2 }}
-          >
-            VK
-          </motion.button>
+          <div className="flex-1">
+            <motion.button
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="text-white font-semibold text-lg tracking-tight"
+              whileHover={{ opacity: 0.7 }}
+              transition={{ duration: 0.2 }}
+            >
+              VK
+            </motion.button>
+          </div>
 
           <ul className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
@@ -61,7 +63,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden md:flex items-center gap-3 flex-1 justify-end">
             <ThemeToggle />
             <button
               onClick={() => handleNavClick("#contact")}

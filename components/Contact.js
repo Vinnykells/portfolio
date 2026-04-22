@@ -109,8 +109,8 @@ export default function Contact() {
           <AnimatedSection delay={0.4} className="md:col-span-3">
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
               {[
-                { name: 'name', label: 'Your Name', type: 'text', placeholder: 'John Doe' },
-                { name: 'email', label: 'Email Address', type: 'email', placeholder: 'john@example.com' },
+                { name: 'name', label: 'Your Name', type: 'text', placeholder: 'Jimmy Crickets' },
+                { name: 'email', label: 'Email Address', type: 'email', placeholder: 'tom@example.com' },
               ].map((field) => (
                 <div key={field.name}>
                   <label className="block text-sm text-apple-gray mb-2">{field.label}</label>

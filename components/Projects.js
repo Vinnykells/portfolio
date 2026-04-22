@@ -1,12 +1,14 @@
 'use client'
 
 import { useRef, useState } from 'react'
+import Image from 'next/image'
 import { motion, useInView } from 'framer-motion'
 import AnimatedSection from './AnimatedSection'
 
 const projects = [
   {
     id: 1,
+    image: '/Starbase.png',
     title: 'Starbase',
     tagline: 'Explore the universe.',
     description:
@@ -27,6 +29,7 @@ const projects = [
   },
   {
     id: 2,
+    image: '/Cineflicker.png',
     title: 'Cineflicker',
     tagline: 'Discover movies and TV shows.',
     description:
@@ -47,6 +50,7 @@ const projects = [
   },
   {
     id: 3,
+    image: '/Aegis.png',
     title: 'Aegis',
     tagline: 'The shield your money deserves.',
     description:
@@ -90,17 +94,12 @@ function ProjectCard({ project, index }) {
           borderColor: hovered ? project.hoverBorder : undefined,
         }}
       >
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-[120px] font-black text-white/5 select-none">{project.number}</span>
-        </div>
-
-        <motion.div
-          animate={hovered ? { scale: 1.2, y: -5 } : { scale: 1, y: 0 }}
-          transition={{ duration: 0.3 }}
-          className="absolute top-6 left-6 text-5xl"
-        >
-          {project.emoji}
-        </motion.div>
+        <Image
+          src={project.image}
+          alt={project.title}
+          fill
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
+        />
 
         <div className="absolute top-6 right-6">
           <span className={`text-xs px-3 py-1.5 rounded-full border font-medium ${project.badgeColor}`}>
