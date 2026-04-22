@@ -12,7 +12,7 @@ const projects = [
     title: 'Starbase',
     tagline: 'Explore the universe.',
     description:
-      'A space exploration dashboard powered by NASA Open APIs. Browse the Astronomy Picture of the Day gallery, view real photos from Mars rovers, and track near Earth asteroids in real time with threat level assessments. Features an animated star field, cosmic UI and live data.'
+      'A space exploration dashboard powered by NASA Open APIs. Browse the Astronomy Picture of the Day gallery, view real photos from Mars rovers, and track near Earth asteroids in real time with threat level assessments. Features an animated star field, cosmic UI and live data.',
     tech: ['Next.js', 'NASA API', 'Tailwind CSS', 'Framer Motion', 'Axios'],
     liveUrl: 'https://starbase-vinnykells.vercel.app',
     githubUrl: 'https://github.com/Vinnykells/starbase',
@@ -33,7 +33,7 @@ const projects = [
     title: 'Cineflicker',
     tagline: 'Discover movies and TV shows.',
     description:
-      'A full movie discovery app powered by the TMDB API. Search any movie or TV show, browse trending content, view cast details, watch trailers and explore similar titles. Features real time search, loading skeletons, smooth animations and a cinematic dark red UI.'
+      'A full movie discovery app powered by the TMDB API. Search any movie or TV show, browse trending content, view cast details, watch trailers and explore similar titles. Features real time search, loading skeletons, smooth animations and a cinematic dark red UI.',
     tech: ['Next.js', 'React', 'Tailwind CSS', 'TMDB API', 'Framer Motion'],
     liveUrl: 'https://cineflicker-vinnykells.vercel.app',
     githubUrl: 'https://github.com/Vinnykells/cineflicker',
@@ -54,7 +54,7 @@ const projects = [
     title: 'Aegis',
     tagline: 'The shield your money deserves.',
     description:
-      'A premium fintech landing page for a global payments platform. Built with a rich dark gold aesthetic inspired by high end financial products. Features smooth scroll animations, glassmorphism cards, live currency ticker, shield micro interactions and a fully responsive layout.'
+      'A premium fintech landing page for a global payments platform. Built with a rich dark gold aesthetic inspired by high end financial products. Features smooth scroll animations, glassmorphism cards, live currency ticker, shield micro interactions and a fully responsive layout.',
     tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
     liveUrl: 'https://aegis-vinnykells.vercel.app',
     githubUrl: 'https://github.com/Vinnykells/aegis',
