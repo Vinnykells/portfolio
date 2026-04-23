@@ -4,11 +4,20 @@ A personal developer portfolio built with Next.js, Tailwind CSS, and Framer Moti
 
 ## Screenshots
 
-| Desktop | Mobile |
-|---|---|
-| ![Hero](screenshots/Portfolio%20hero.png) | ![Hero Mobile](screenshots/Portfolio%20hero%20mobile.png) |
-| ![Projects](screenshots/Portfolio%20projects.png) | ![Projects Mobile](screenshots/Portfolio%20projects%20mobile.png) |
-| ![Footer](screenshots/Portfolio%20footer.png) | ![Footer Mobile](screenshots/Portfolio%20footer%20mobile.png) |
+<div align="center">
+  <img src="screenshots/Portfolio hero.png" width="600" />
+  <img src="screenshots/Portfolio hero mobile.png" width="200" />
+</div>
+
+<div align="center">
+  <img src="screenshots/Portfolio projects.png" width="600" />
+  <img src="screenshots/Portfolio projects mobile.png" width="200" />
+</div>
+
+<div align="center">
+  <img src="screenshots/Portfolio footer.png" width="600" />
+  <img src="screenshots/Portfolio footer mobile.png" width="200" />
+</div>
 
 ## Tech Stack
 
