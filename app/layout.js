@@ -1,5 +1,6 @@
 import './globals.css'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export const metadata = {
   metadataBase: new URL('https://portfolio-vinnykells.vercel.app'),
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
