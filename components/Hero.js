@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
-const roles = ['Frontend Developer', 'React Specialist', 'UI Engineer', 'Next.js Developer']
+const roles = ['Design Engineer', 'React Specialist', 'FullStack Developer', 'Next.js Developer']
 
 export default function Hero() {
   const [currentRole, setCurrentRole] = useState(0)

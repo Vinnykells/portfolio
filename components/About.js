@@ -58,7 +58,7 @@ export default function About() {
               <p className="text-lg text-apple-gray leading-relaxed">
                 Hi, I'm{" "}
                 <span className="text-white font-medium">Kelvin Isaiah</span>, a
-                passionate Frontend Developer based in{" "}
+                passionate Design Engineer based in{" "}
                 <span className="text-white font-medium">Lagos, Nigeria</span>.
                 I specialize in building exceptional digital experiences that
                 live on the internet.
@@ -86,7 +86,7 @@ export default function About() {
 
             <AnimatedSection delay={0.6}>
               <motion.a
-                href="/Isaiah Kelvin Resume DEV.pdf"
+                href="./Kelvin_Isaiah_Design_Engineer_CV.pdf"
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
