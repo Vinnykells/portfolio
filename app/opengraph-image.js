@@ -27,17 +27,17 @@ export default function OGImage() {
         </div>
 
         {/* Name */}
-        <span style={{ fontSize: '120px', fontWeight: 800, color: '#111827', lineHeight: 1, marginBottom: '8px' }}>
+        <span style={{ fontSize: '128px', fontWeight: 900, color: '#111827', lineHeight: 1, marginBottom: '8px', letterSpacing: '-2px' }}>
           Vinny Kells
         </span>
 
         {/* Title */}
-        <span style={{ fontSize: '64px', fontWeight: 400, color: '#2563eb', marginBottom: '24px' }}>
+        <span style={{ fontSize: '60px', fontWeight: 500, color: '#2563eb', marginBottom: '28px' }}>
           Design Engineer
         </span>
 
         {/* Stack */}
-        <span style={{ fontSize: '36px', color: '#9ca3af', marginLeft: '8px' }}>
+        <span style={{ fontSize: '34px', color: '#374151', letterSpacing: '0.5px' }}>
           React · Next.js · Tailwind CSS
         </span>
 
@@ -48,8 +48,7 @@ export default function OGImage() {
             bottom: '60px',
             right: '70px',
             fontSize: '30px',
-            color: '#9ca3af',
-
+            color: '#374151',
           }}
         >
           vinnykells.dev
