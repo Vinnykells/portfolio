@@ -12,58 +12,47 @@ export default function OGImage() {
         style={{
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'flex-start',
+          justifyContent: 'flex-start',
           width: '100%',
           height: '100%',
           backgroundColor: '#ffffff',
-          padding: '80px',
+          padding: '60px 70px',
           fontFamily: 'sans-serif',
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '12px' }}>
-          <div
-            style={{
-              width: '48px',
-              height: '48px',
-              borderRadius: '50%',
-              backgroundColor: '#6366f1',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: '#fff',
-              fontSize: '18px',
-              fontWeight: 700,
-              marginRight: '16px',
-            }}
-          >
-            VK
-          </div>
+        {/* VK chip + blue underline */}
+        <div style={{ display: 'flex', flexDirection: 'column', marginBottom: '32px' }}>
+          <span style={{ fontSize: '28px', fontWeight: 600, color: '#1a1a1a' }}>VK</span>
+          <div style={{ width: '60px', height: '3px', backgroundColor: '#3b82f6', marginTop: '6px' }} />
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-          <span style={{ fontSize: '72px', fontWeight: 800, color: '#0f172a', lineHeight: 1.1 }}>
-            Vinny Kells
-          </span>
-          <span style={{ fontSize: '36px', fontWeight: 600, color: '#6366f1' }}>
-            Design Engineer
-          </span>
-          <span style={{ fontSize: '24px', color: '#64748b', marginTop: '8px' }}>
-            React · Next.js · Tailwind CSS
-          </span>
-        </div>
+        {/* Name */}
+        <span style={{ fontSize: '96px', fontWeight: 800, color: '#0f172a', lineHeight: 1, marginBottom: '16px' }}>
+          Vinny Kells
+        </span>
 
-        <div
+        {/* Title */}
+        <span style={{ fontSize: '52px', fontWeight: 500, color: '#3b82f6', marginBottom: '20px' }}>
+          Design Engineer
+        </span>
+
+        {/* Stack */}
+        <span style={{ fontSize: '32px', color: '#64748b' }}>
+          React · Next.js · Tailwind CSS
+        </span>
+
+        {/* URL bottom right */}
+        <span
           style={{
             position: 'absolute',
             bottom: '60px',
-            right: '80px',
-            fontSize: '20px',
+            right: '70px',
+            fontSize: '28px',
             color: '#94a3b8',
           }}
         >
           vinnykells.dev
-        </div>
+        </span>
       </div>
     ),
     { ...size }
