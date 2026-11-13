@@ -20,24 +20,24 @@ export default function OGImage() {
           fontFamily: 'sans-serif',
         }}
       >
-        {/* VK chip + blue underline */}
-        <div style={{ display: 'flex', flexDirection: 'column', marginBottom: '32px' }}>
-          <span style={{ fontSize: '28px', fontWeight: 600, color: '#1a1a1a' }}>VK</span>
-          <div style={{ width: '60px', height: '3px', backgroundColor: '#3b82f6', marginTop: '6px' }} />
+        {/* VK + blue underline */}
+        <div style={{ display: 'flex', flexDirection: 'column', marginBottom: '48px' }}>
+          <span style={{ fontSize: '36px', fontWeight: 600, color: '#374151' }}>VK</span>
+          <div style={{ width: '120px', height: '4px', backgroundColor: '#3b82f6', marginTop: '8px' }} />
         </div>
 
         {/* Name */}
-        <span style={{ fontSize: '96px', fontWeight: 800, color: '#0f172a', lineHeight: 1, marginBottom: '16px' }}>
+        <span style={{ fontSize: '120px', fontWeight: 800, color: '#111827', lineHeight: 1, marginBottom: '8px' }}>
           Vinny Kells
         </span>
 
         {/* Title */}
-        <span style={{ fontSize: '52px', fontWeight: 500, color: '#3b82f6', marginBottom: '20px' }}>
+        <span style={{ fontSize: '64px', fontWeight: 400, color: '#2563eb', marginBottom: '24px' }}>
           Design Engineer
         </span>
 
         {/* Stack */}
-        <span style={{ fontSize: '32px', color: '#64748b' }}>
+        <span style={{ fontSize: '36px', color: '#9ca3af', marginLeft: '8px' }}>
           React · Next.js · Tailwind CSS
         </span>
 
@@ -47,8 +47,9 @@ export default function OGImage() {
             position: 'absolute',
             bottom: '60px',
             right: '70px',
-            fontSize: '28px',
-            color: '#94a3b8',
+            fontSize: '30px',
+            color: '#9ca3af',
+
           }}
         >
           vinnykells.dev
