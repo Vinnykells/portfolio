@@ -64,6 +64,18 @@ body.light nav .text-white {
   color: #1d1d1f !important;
 }
 
+body.light input::placeholder,
+body.light textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+body.light .bg-apple-blue,
+body.light .bg-apple-darkblue,
+body.light nav .bg-apple-blue,
+body.light nav .bg-apple-darkblue {
+  color: #ffffff !important;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
